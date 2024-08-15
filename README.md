@@ -12,12 +12,12 @@ Currently, two official plugins are available:
 
 
 
-npm create vite@latest
+- npm create vite@latest
 
 Tailwind
 
-npm install -D tailwindcss postcss autoprefixer 
-npx tailwindcss init -p 
+- npm install -D tailwindcss postcss autoprefixer 
+- npx tailwindcss init -p 
 
 https://tailwindcss.com/docs/guides/vite
 
