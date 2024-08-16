@@ -46,14 +46,14 @@ function App() {
 
 
 
-    <div className="w-full max-w-xl mx-auto shadow-md rounded-lg px-4 py-3 my-8 bg-gray-800 text-orange-500">
-      <h1 className="text-white text-center my-3">Password generator</h1>
-      <div className="flex shadow rounded-lg overflow-hidden mb-4">
+    <div className="w-full max-w-3xl mx-auto shadow-md rounded-lg px-4 py-3 my-12 bg-gray-800 text-orange-500">
+      <h1 className="text-white text-center my-3 py-2">Password generator</h1>
+      <div className="flex shadow rounded-lg overflow-hidden mb-5">
 
         <input
           type="text"
           value={password}
-          className="outline-none w-full py-4 px-3"
+          className="outline-none w-full py-4 px-6"
           placeholder="Password"
           readOnly
           ref={passwordRef}
@@ -67,8 +67,8 @@ function App() {
         </button>
 
       </div>
-      <div className="flex text-sm gap-x-2">
-        <div className="flex items-center gap-x-1">
+      <div className="flex text-lg gap-x-5">
+        <div className="flex items-center gap-x-4">
 
           <input
             type="range"
