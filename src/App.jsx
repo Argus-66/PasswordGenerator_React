@@ -53,7 +53,7 @@ function App() {
         <input
           type="text"
           value={password}
-          className="outline-none w-full py-1 px-3"
+          className="outline-none w-full py-4 px-3"
           placeholder="Password"
           readOnly
           ref={passwordRef}
@@ -65,10 +65,11 @@ function App() {
         >
           copy
         </button>
-        
+
       </div>
       <div className="flex text-sm gap-x-2">
         <div className="flex items-center gap-x-1">
+
           <input
             type="range"
             min={6}
@@ -79,8 +80,10 @@ function App() {
               setLength(e.target.value);
             }}
           />
+
           <label>Length: {length}</label>
         </div>
+
         <div className="flex items-center gap-x-1">
           <input
             type="checkbox"
@@ -90,8 +93,10 @@ function App() {
               setNumberAllowed((prev) => !prev);
             }}
           />
+
           <label htmlFor="numberInput">Numbers</label>
         </div>
+
         <div className="flex items-center gap-x-1">
           <input
             type="checkbox"
@@ -101,7 +106,9 @@ function App() {
               setCharAllowed((prev) => !prev);
             }}
           />
+
           <label htmlFor="characterInput">Characters</label>
+
         </div>
       </div>
     </div>
